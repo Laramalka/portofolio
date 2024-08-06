@@ -1,0 +1,92 @@
+#navbar{
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  background-color: #E2FBFB;
+}
+
+#photo{
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+}
+
+#name{
+  margin:0;
+}
+
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logoitem{
+  margin: 0 30px 0 30px;
+}
+
+.navlinks{
+  display: flex;
+  flex-direction: row;
+}
+
+.navlink{
+  margin: 5px;
+  padding: 5px;
+}
+
+/*Home*/
+.socialmedias{
+  display: flex;
+}
+
+#homeall{
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+#home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#homehead{
+  display: flex;
+  align-content: center;
+}
+
+#socialmedias{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+/*socialmedia????*/
+.socialmedia{
+  display: flex;
+  justify-items: space-between;
+}
+
+#linkedin{
+  padding-top: 5px;
+}
+
+#github{
+  width: 40px ;
+  height: 40px ;  
+}
+
+/*About*/
+.title-section{
+  border-bottom-style: ridge;
+  border-bottom-color: #C9F3F3;
+  border-bottom-width: 7px;
+  display: flex;
+  justify-content: center;
+}
+
